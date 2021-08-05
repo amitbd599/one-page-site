@@ -76,7 +76,7 @@ header {
 
 .sticky {
     height: 100px;
-    background: #0b032d;
+    background: #1a1a1a;
     border-bottom: 3px solid #00fff0;
     box-shadow: 2px 4px 32px #00ffee83;
 
@@ -1098,8 +1098,8 @@ header .navbar .disable {
 }
 
 
-#portfolio .owl-item.active {
-    padding: 53px 20px;
+#portfolio .owl-item .main {
+    padding: 19px 20px;
 }
 
 #portfolio .owl-nav {
@@ -1464,7 +1464,7 @@ header .navbar .disable {
 /* blog */
 
 #blog {
-    padding-top: 150px;
+    padding-top: 40px;
 }
 
 #blog .part-1 .wrap {
@@ -1606,7 +1606,7 @@ header .navbar .disable {
 
 
 
-#blog .owl-item.active {
+#blog .owl-item .testimonial {
     padding: 53px 20px;
 }
 

@@ -7,7 +7,27 @@ window.addEventListener("scroll", function () {
 //    portfolio slider ---------
 
 var forNew = $('.portfolio');
-forNew.owlCarousel();
+forNew.owlCarousel({
+  loop:true,
+        nav:true,
+        dots:true,
+        animateIn:'fadeIn',
+        animateOut:'fadeOut',
+        smartplay:1000,
+        autoplay:true,
+  items: 3,
+  responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:2
+    },
+    1000:{
+        items:3
+    }
+ }
+});
 // Go to the next item
 $('.owl-prev-1').click(function () {
   forNew.trigger('next.owl.carousel', [500]);
@@ -27,6 +47,17 @@ blog.owlCarousel({
   dots: true,
   autoplay: true,
   items: 3,
+  responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:2
+    },
+    1000:{
+        items:3
+    }
+ }
 
 });
 
@@ -44,9 +75,14 @@ $('.owl-next').click(function () {
 
 // overlay It's Me ----------
 
-var myVar = document.querySelector('.login-btn');
+var myVar = document.querySelector('.btnClass');
+var myVar_2 = document.querySelector('.btnClass-1');
 
-myVar.addEventListener('click', function add() {
+myVar.addEventListener('click', function add_1() {
+  myClass = document.querySelector('#myBtn');
+  myClass.classList.add('active');
+});
+myVar_2.addEventListener('click', function add_2() {
   myClass = document.querySelector('#myBtn');
   myClass.classList.add('active');
 });
