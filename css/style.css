@@ -58,6 +58,7 @@ select:focus {
 
 #main {
     background: #0b032d;
+    overflow: hidden;
 }
 
 header {

@@ -265,7 +265,7 @@
         margin-left: 30px;
     }
     .navbar-dark .navbar-toggler {
-        margin-right: 30px;
+        margin-right: 15px;
     }
 
     nav .btnClass-1 {
@@ -342,6 +342,159 @@
     #footer .part-1 .logo {
         position: absolute;
         top: -14px;
+    }
+
+}
+
+@media screen and (max-width:575px){
+    .navbar-dark .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-dark .navbar-brand img {
+        width: 75%;
+    }
+    nav .btnClass-1 {
+        display: block !important;
+        margin-top: 2px;
+        position: relative;
+        left: -17px;
+        cursor: pointer;
+        top: 0;
+    }
+    #layout .overlay .wrap {
+        width: 88%;
+    }
+    #hero .part-1 h2 {
+        font-size: 37px;
+        margin-top: -28px;
+    }
+    #hero .btnClass {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #hero .part-1 .btn, #hero .part-1 .btn {
+        padding: 13px 19px;
+     
+    }
+    #hero .part-1 .my-btn-1 {
+        color: rgb(31, 31, 31);
+      
+    }
+    #About figure .btn-contact {
+        opacity: 1;
+        color: #fff;
+        background: #00ffee00;
+       
+    }
+    #About figure .overlay {
+        width: 100%;
+        height: 100%;
+    }
+    #About .image::before {
+        display: none;
+    }
+    
+    #About .warp h2 {
+        font-size: 35px;
+        margin-top: -26px;
+    }
+    #About figure .btn-contact {
+        left: 35%;
+        top: 45%;
+    }
+    #About .dowwnload-cv-btn {
+        display: flex;
+        justify-content: center;
+    }
+    #About .warp .btn-cv {
+        background: #00fff000;
+        color: rgb(255, 255, 255);
+       
+    }
+    #experinece {
+        padding-top: 49px;
+    }
+    #experinece .part-1 .text h2 {
+        font-size: 25px;
+    }
+    #experinece .box .text .overlay {
+        opacity: 0;
+    }
+    #experinece .text:hover {
+        box-shadow: none;
+        transform: none;
+    }
+    #experinece .part-1 h2 {
+        font-size: 30px;
+    }
+    #SERVICES .part-1 >h2 {
+        font-size: 30px;
+    }
+    #SERVICES .part-1 h2 {
+        font-size: 30px;
+    }
+    #SERVICES .card {
+        margin-top: 60px;
+    }
+    #SERVICES .card i {
+        margin: 20px 0;
+    }
+    #portfolio {
+        padding-top: 65px;
+    }
+    #portfolio .part-1 h2 {
+        font-size: 30px;
+    }
+    #portfolio .owl-nav {
+        left: 26%;
+    }
+    #portfolio .owl-nav .owl-prev-1,
+    #portfolio .owl-nav .owl-next-1 {
+        background: #0fe0;
+        border: 2px solid #0fe0;
+    }
+    #portfolio .owl-nav .owl-prev-1 i,
+    #portfolio .owl-nav .owl-next-1 i{
+        color: #00fff0;
+    }
+    #portfolio .owl-carousel {
+        padding-top: 70px;
+    }
+    #TESTIMONIALS .part-1 h2 {
+        font-size: 30px;
+    }
+    #Payment .part-1 h2 {
+        font-size: 30px;
+    }
+    #blog .menu-bar {
+        left: 0;
+    }
+    #blog .owl-nav .owl-prev,
+    #blog .owl-nav .owl-next {
+        background: #0fe0;
+        border: 2px solid #0fe0;
+    }
+    #blog .owl-nav .owl-prev i,
+    #blog .owl-nav .owl-next i{
+        color: #00fff0;
+    }
+    #blog .owl-nav {
+        top: 2px;
+        left: 26%;
+        z-index: 99;
+    }
+    #blog .owl-item .testimonial {
+        margin-top: 18px;
+    }
+    .newsletter-bg-black .wrap .head-text {
+        font-size: 30px;
+        line-height: 46px;
+        margin-bottom: 25px;
+        margin-top: 19px;
+    }
+    .newsletter-bg-black .cta-form input{
+        margin-bottom: 40px;
     }
 
 }
