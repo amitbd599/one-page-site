@@ -414,6 +414,12 @@
         left: 35%;
         top: 45%;
     }
+    #About figure .contact_file .main {
+        width: 98%;
+        height: 70%;
+        position: relative;
+        top: -35px;
+    }
     #About figure .contact_file .main .head_text{
         margin: 0;
     }
