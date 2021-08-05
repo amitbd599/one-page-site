@@ -71,7 +71,7 @@
         right: 0%;
         padding: 58px 20px 40px 30px;
         background: #0B032D;
-        width: 43%;
+        width: 57%;
         height: 100%;
     }
 
@@ -111,7 +111,7 @@
         height: 40%;
         position: relative;
         top: -130px;
-    }
+    
     }
 
     #experinece {
@@ -231,6 +231,9 @@
     #blog .part-2 .wrap {
         margin-left: 0;
     }
+    #Payment .part-2 .wrap {
+        margin-left: 0;
+    }
 
     #blog .owl-nav {
         top: -57px;
@@ -251,7 +254,7 @@
 
 @media screen and (max-width:767px) {
     #main header .container {
-        max-width: none;
+        max-width: none !important;
         padding-right: 0;
         padding-left: 0;
         margin-right: 0;
@@ -269,9 +272,13 @@
         display: block !important;
         margin-top: 2px;
         position: relative;
-        left: 156px;
+        left: 61px;
         cursor: pointer;
     }
+    #layout .overlay .wrap {
+        width: 68%;
+    }
+    
 
     #layout .overlay .wrap img {
         margin-top: 17px;
@@ -284,6 +291,7 @@
     }
     #hero .part-1 p {
         margin-top: 26px; 
+        font-size: 17px;
     }
     #hero .part-2 img {
 
@@ -296,6 +304,44 @@
     #About figure .btn-contact {
         left: 38%;
         top: 45%;
+    }
+    #About .warp h2 {
+        font-size: 45px;
+    }
+    #percent_work {
+        display: none;
+    }
+    #portfolio .owl-nav {
+        left: 33%;   
+    }
+    #portfolio .owl-carousel img:hover {
+        transform: none;
+    }
+    #TESTIMONIALS .bd-example .right p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+    #Payment {
+        margin-top: 35px;
+        padding-bottom: 60px;
+    }
+    #blog .menu-bar {
+        left: -135px;
+    }
+    #blog .owl-carousel .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    .newsletter-bg-black {
+        padding-top: 16px;
+    }
+    .newsletter-bg-black .wrap .head-text {
+        font-size: 40px;
+    }
+    #footer .part-1 .logo {
+        position: absolute;
+        top: -14px;
     }
 
 }

@@ -76,7 +76,7 @@ header {
 
 .sticky {
     height: 100px;
-    background: #1a1a1a;
+    background: #05001a;
     border-bottom: 3px solid #00fff0;
     box-shadow: 2px 4px 32px #00ffee83;
 
@@ -223,7 +223,7 @@ header .navbar .disable {
 }
 
 #layout .overlay .wrap img {
-    margin-top: 0;
+    margin-top: 20px;
 
 }
 
@@ -1653,7 +1653,7 @@ header .navbar .disable {
 
 /* NEWSLETTER */
 .newsletter-bg-black {
-    padding-top: 100px;
+    padding: 53px 0;
 
 }
 
@@ -1821,14 +1821,14 @@ header .navbar .disable {
 
 #footer {
     padding-top: 100px;
-    background: #0b032d;
+    background: #05001a;
     position: relative;
 
 }
 
 #footer .part-1 .logo {
     position: absolute;
-    top: -27px;
+    top: 14px;
 }
 
 #footer .part-1 .text {
