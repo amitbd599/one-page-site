@@ -74,6 +74,7 @@
         width: 57%;
         height: 100%;
     }
+   
 
     #hero .part-2 img {
         margin-left: 0;
@@ -106,12 +107,12 @@
         margin-top: 32px;
 
     }
+
     #About figure .contact_file .main {
         width: 62%;
-        height: 40%;
+        height: 49%;
         position: relative;
-        top: -130px;
-    
+        top: -80px;
     }
 
     #experinece {
@@ -249,6 +250,10 @@
     #footer .part-4 {
         padding: 12px 23px;
     }
+    #footer .part-4 img {
+        width: 8%;
+        margin-right: 10px;
+    }
     
 }
 
@@ -307,6 +312,12 @@
     }
     #About .warp h2 {
         font-size: 45px;
+    }
+    #About figure .contact_file .main {
+        width: 98%;
+        height: 55%;
+        position: relative;
+        top: -80px;
     }
     #percent_work {
         display: none;
@@ -402,6 +413,37 @@
     #About figure .btn-contact {
         left: 35%;
         top: 45%;
+    }
+    #About figure .contact_file .main .head_text{
+        margin: 0;
+    }
+    #About figure .contact_file .main .text_1 {
+        font-size: 15px;
+        color: rgb(148, 148, 148);
+        margin: 14px 0px;
+        text-align: start;
+    }
+    #About figure .contact_file .address h2 {
+        font-size: 25px;
+        color: #fff;
+    }
+    #About figure .contact_file .address {
+        display: block !important;
+    }
+    #About figure .contact_file .address .part-1,
+    #About figure .contact_file .address .part-2 {
+        width: 100% !important;
+    }
+    #About figure .contact_file .address .part-2 {
+        margin-top: 13px;
+    }
+    #About figure .contact_file .address .part-2 .fab {
+        color: #00ffee;
+        transform: none;
+    }
+    #About figure .contact_file .address .part-2 .fab:hover {
+        color: #00ffee;
+        transform: none;
     }
     #About .dowwnload-cv-btn {
         display: flex;

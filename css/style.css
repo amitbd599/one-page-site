@@ -1883,7 +1883,8 @@ header .navbar .disable {
 #footer .part-4 {}
 
 #footer .part-4 img {
-    width: 25%;
+    width: 16%;
+margin-right: 10px;
 }
 
 #footer .copy_write>p {
