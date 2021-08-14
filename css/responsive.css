@@ -14,6 +14,17 @@
         color: #00fff0 !important;
         border: 2px solid #00fff0;
     }
+    #About figure .btn-contact {
+        top: 26%;
+      
+    }
+    #About figure .contact_file .main {
+        position: relative;
+        top: -60px;
+        width: 68%;
+        height: auto;
+       
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -72,9 +83,9 @@
         padding: 58px 20px 40px 30px;
         background: #0B032D;
         width: 57%;
-        height: 100%;
+        
     }
-   
+
 
     #hero .part-2 img {
         margin-left: 0;
@@ -108,12 +119,14 @@
 
     }
 
+
     #About figure .contact_file .main {
-        width: 62%;
-        height: 49%;
+        width: 90%;
+        height: auto;
         position: relative;
-        top: -80px;
+        top: 0;
     }
+   
 
     #experinece {
         padding-top: 70px;
@@ -277,7 +290,7 @@
         display: block !important;
         margin-top: 2px;
         position: relative;
-        left: 61px;
+        left: 96px;
         cursor: pointer;
     }
     #layout .overlay .wrap {
@@ -315,9 +328,9 @@
     }
     #About figure .contact_file .main {
         width: 98%;
-        height: 55%;
+        height: auto;
         position: relative;
-        top: -80px;
+        top: -96px;
     }
     #percent_work {
         display: none;
@@ -359,10 +372,11 @@
 
 @media screen and (max-width:575px){
     .navbar-dark .navbar-brand {
-        margin-left: 10px;
+        margin-left: 5px;
+        width: 60%;
     }
     .navbar-dark .navbar-brand img {
-        width: 75%;
+        width: 88%;
     }
     nav .btnClass-1 {
         display: block !important;
@@ -376,7 +390,7 @@
         width: 88%;
     }
     #hero .part-1 h2 {
-        font-size: 37px;
+        font-size: 35px;
         margin-top: -28px;
     }
     #hero .btnClass {
@@ -416,7 +430,7 @@
     }
     #About figure .contact_file .main {
         width: 98%;
-        height: 73%;
+        height: auto;
         position: relative;
         top: 45px;
     }
@@ -545,4 +559,10 @@
         margin-bottom: 40px;
     }
 
+}
+
+@media screen and (max-width:325px){
+    #About figure .contact_file .main {
+        top: 17px;
+    }
 }

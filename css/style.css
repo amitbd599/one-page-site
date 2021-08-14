@@ -98,14 +98,14 @@ header .navbar .nav-item {
 
 
 header .navbar .nav-item:hover {
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
 
 }
 
 header .navbar .nav-item::after {
     position: absolute;
     width: 0;
-    transition: width .7s linear;
+    transition: width .4s linear;
     left: 9px;
     bottom: 0;
     content: '';
@@ -114,7 +114,7 @@ header .navbar .nav-item::after {
 }
 
 header .navbar .nav-item:hover::after {
-    width: 73px;
+    width: 85%;
 
 }
 
@@ -167,7 +167,7 @@ header .navbar .disable {
 #layout .overlay {
     position: fixed;
     background: #0000008a;
-    z-index: 100;
+    z-index: 200;
     height: 100%;
     width: 100%;
     top: 0;
@@ -178,12 +178,12 @@ header .navbar .disable {
 
 #layout .overlay .wrap {
     position: absolute;
-    top: 0;
+    top: 2px;
     right: 0%;
-    padding: 58px 20px 40px 30px;
+    padding: 70px 20px 70px 30px;
     background: #0B032D;
     width: 30%;
-    height: 100%;
+    height: auto;
 
 }
 
@@ -294,6 +294,9 @@ header .navbar .disable {
     margin-top: 80px;
     background: #0b032d;
     padding-top: 140px;
+}
+#hero .wrapper{
+    /* position: relative; */
 }
 
 #hero .part-1 h2 {
@@ -503,7 +506,7 @@ header .navbar .disable {
 
 #About figure .contact_file .main {
     width: 40%;
-    height: 60%;
+    height: 70%;
     background: #0b032d;
     border: 2px solid #00ffee;
     border-radius: 10px;

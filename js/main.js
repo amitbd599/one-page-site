@@ -1,10 +1,17 @@
-// Menu bar sticky .....
+try {
+  // Menu bar sticky .....
 window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-//    portfolio slider ---------
+} catch{
+  console.log("Menu bar sticky error!");
+}
+
+
+try {
+  //    portfolio slider ---------
 
 var forNew = $('.portfolio');
 forNew.owlCarousel({
@@ -40,7 +47,13 @@ $('.owl-next-1').click(function () {
 });
 
 
-var blog = $(".blog");
+} catch {
+  console.log("There is an error!");
+}
+
+
+try {
+  var blog = $(".blog");
 blog.owlCarousel({
   loop: true,
   nav: true,
@@ -71,10 +84,24 @@ $('.owl-next').click(function () {
   // Parameters has to be in square bracket '[]'
   blog.trigger('prev.owl.carousel', [300])
 });
+}
+catch {
+  console.log("portfolio slider error!");
+}
 
+try {
+  // Scroll js
+
+  var s = skrollr.init();
+
+
+} catch {
+  console.log("some error!");
+}
 
 // overlay It's Me ----------
-
+try {
+  
 var myVar = document.querySelector('.btnClass');
 var myVar_2 = document.querySelector('.btnClass-1');
 
@@ -94,6 +121,9 @@ myVar.addEventListener('click', function remove() {
   MyRemoveClass.classList.remove('active');
 })
 
+} catch {
+  console.log('overlay It\'s Me items error find!');
+}
 
 
 // onePageNav ------------
@@ -127,7 +157,8 @@ myVar.addEventListener('click', function remove() {
 
 // Contact Form -------
 
-var contact_open = document.querySelector('.btn-contact');
+try {
+  var contact_open = document.querySelector('.btn-contact');
 contact_open.addEventListener('click', function () {
   my_contact = document.querySelector('#contact_file_popUp');
   my_contact.classList.add('active')
@@ -144,6 +175,9 @@ contact_remove_2.addEventListener('click', function () {
   my_contact.classList.remove('active')
 });
 
+} catch {
+  console.log('Contact Form section error find!');
+}
 
 
 
