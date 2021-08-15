@@ -169,11 +169,11 @@ contact_remove.addEventListener('click', function () {
   my_contact = document.querySelector('#contact_file_popUp');
   my_contact.classList.remove('active')
 });
-var contact_remove_2 = document.querySelector('#contact_file_popUp');
-contact_remove_2.addEventListener('click', function () {
-  my_contact = document.querySelector('#contact_file_popUp');
-  my_contact.classList.remove('active')
-});
+// var contact_remove_2 = document.querySelector('#contact_file_popUp');
+// contact_remove_2.addEventListener('click', function () {
+//   my_contact = document.querySelector('#contact_file_popUp');
+//   my_contact.classList.remove('active')
+// });
 
 } catch {
   console.log('Contact Form section error find!');
