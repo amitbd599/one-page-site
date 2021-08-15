@@ -89,17 +89,17 @@ catch {
   console.log("portfolio slider error!");
 }
 
-try {
-  // Scroll js
+// try {
+//   // Scroll js
 
-  var s = skrollr.init();
+//   var s = skrollr.init();
 
 
-} catch {
-  console.log("some error!");
-}
+// } catch {
+//   console.log("some error!");
+// }
 
-// overlay It's Me ----------
+// overlay It's Me ----------  
 try {
   
 var myVar = document.querySelector('.btnClass');
