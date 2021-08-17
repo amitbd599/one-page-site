@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrap -->
 
     <!-- Google font -->
@@ -40,35 +39,44 @@
     <main id="main">
         <header class="">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-dark">
                     <a class="navbar-brand" href="index.html"><img src="./img/logo-2.png" alt=""></a>
+                    <div class="login-btn-img d-none">
+                        <img class="btnClass-1 d-none" src="./img/Banner_section.png" alt="">
+                      </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    
+                        
+                  
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul id="nav" class="navbar-nav ml-auto">
-                            <li class="nav-item current">
-                                <a class="nav-link disable" href="./index.html"> About Us </a>
+                            <li class="nav-item current ">
+                                <a class="nav-link " href="#About"> About Us </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Experinece </a>
+                                <a class="nav-link" href="#experinece">Experinece </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Services</a>
+                                <a class="nav-link" href="#SERVICES">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Project</a>
+                                <a class="nav-link" href="#portfolio">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Work</a>
+                                <a class="nav-link" href="#blog">Work</a>
                             </li>
                             <li class="login-btn animate__animated animate__rubberBand">
                                 <!-- <a class="btnClass" href=""> It's Me </a> -->
                                 <p class="btnClass">It's Me</p>
                             </li>
+                            <!-- <li class="login-btn-img">
+                                <img class="btnClass-1 d-none" src="./img/Banner_section.png" alt="">
+                              </li> -->
 
                         </ul>
                     </div>
@@ -77,27 +85,24 @@
             </div>
         </header>
 
-
         <!-- Layout -->
 
         <section id="layout">
             <div id="myBtn" class="overlay">
-                <div class="wrap">
-                    <div class="icon">
-                        <span class="remove_btn"><i class="fas fa-times"></i></span>
-                        <span class="arrow_btn"><i class="fas fa-arrow-left"></i></span>
-                    </div>
-
-                    <img class="img-fluid" src="./img/logo-2.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ratione reprehenderit, error qui
-                        enim sit ex provident iure, dolor, nulla eaque delectus, repudiandae commodi. Velit assumenda
-                        odit quisquam at, error suscipit unde, necessitatibus ipsum ratione excepturi ducimus labore,
-                        totam dolorem.</p>
-                    <div class="img-sin d-flex">
-                        <img class="img-fluid amit" src="./img/amit.jpg" alt="">
-                        <img class="img-fluid sing" src="./img/signature.png" alt="">
-                    </div>
+              <div class="wrap">
+                <div class="icon">
+                    <span class="remove_btn"><i class="fas fa-times"></i></span>
+                <span class="arrow_btn"><i class="fas fa-arrow-left"></i></span>
                 </div>
+                  
+                <img class="img-fluid" src="./img/logo-2.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ratione reprehenderit, error qui enim sit ex provident iure, dolor, nulla eaque delectus, repudiandae commodi. Velit assumenda odit quisquam at, error suscipit unde, necessitatibus ipsum ratione excepturi ducimus labore, totam dolorem.</p>
+
+                <div class="img-sin d-flex">
+                    <img class="img-fluid amit" src="./img/amit.jpg" alt="">
+                    <img class="img-fluid sing" src="./img/signature.png" alt="">
+                </div>
+              </div>
             </div>
         </section>
 

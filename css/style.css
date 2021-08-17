@@ -95,6 +95,9 @@ header .navbar .nav-item {
     transition: .7s;
 
 }
+.navbar-collapse.show{
+    border-bottom: 3px solid #00fff0;
+}
 
 
 header .navbar .nav-item:hover {
@@ -348,6 +351,9 @@ header .navbar .disable {
     font-weight: 700;
 }
 
+#hero .part-1 .my-btn-1 {
+    color: #000;
+}
 #hero .part-1 .my-btn-1:hover {
     color: #ddd;
     background: #3d6cb900;
@@ -2175,16 +2181,19 @@ margin-right: 10px;
     margin-bottom: 70px;
 }
 
-.blog-page .section-1 .part-1 .single-item>img {
-    height: 486px;
+.blog-page .section-1 .part-1 .single-item .overlay {
     position: relative;
     z-index: 1;
 }
+.blog-page .section-1 .part-1 .single-item>img {
+    height: 486px;
+    z-index: 1;
+}
 
-.blog-page .section-1 .part-1 .text-overlay h2 {
+.blog-page .section-1 .part-1 .event {
     position: absolute;
-    top: 432px;
-    left: 15px;
+    bottom: -8px;
+    left: 0;
     z-index: 2;
     font-size: 20px;
     font-weight: 700;
@@ -2489,7 +2498,8 @@ margin-right: 10px;
 
 .blog_item .section-1 .part-1 .comment-zoon img {
     border-radius: 50%;
-    width: 20%;
+    width: 25%;
+    height: 25%;
 }
 
 .blog_item .section-1 .part-1 .comment-zoon .comment {

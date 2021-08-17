@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrap -->
 
     <!-- Google font -->
@@ -40,36 +40,44 @@
     <main id="main">
         <header class="">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-dark">
                     <a class="navbar-brand" href="index.html"><img src="./img/logo-2.png" alt=""></a>
+                    <div class="login-btn-img d-none">
+                        <img class="btnClass-1 d-none" src="./img/Banner_section.png" alt="">
+                    </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
+
+
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul id="nav" class="navbar-nav ml-auto">
-                            <li class="nav-item current">
-                                <a class="nav-link disable" href="./index.html"> About Us </a>
+                            <li class="nav-item current ">
+                                <a class="nav-link " href="#About"> About Us </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Experinece </a>
+                                <a class="nav-link" href="#experinece">Experinece </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Services</a>
+                                <a class="nav-link" href="#SERVICES">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Project</a>
+                                <a class="nav-link" href="#portfolio">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disable" href="./index.html">Work</a>
+                                <a class="nav-link" href="#blog">Work</a>
                             </li>
                             <li class="login-btn animate__animated animate__rubberBand">
                                 <!-- <a class="btnClass" href=""> It's Me </a> -->
                                 <p class="btnClass">It's Me</p>
                             </li>
-                           
+                            <!-- <li class="login-btn-img">
+                                <img class="btnClass-1 d-none" src="./img/Banner_section.png" alt="">
+                              </li> -->
 
                         </ul>
                     </div>
@@ -77,7 +85,6 @@
 
             </div>
         </header>
-
 
         <!-- Layout -->
 
@@ -95,8 +102,6 @@
                         odit quisquam at, error suscipit unde, necessitatibus ipsum ratione excepturi ducimus labore,
                         totam dolorem.</p>
 
-
-
                     <div class="img-sin d-flex">
                         <img class="img-fluid amit" src="./img/amit.jpg" alt="">
                         <img class="img-fluid sing" src="./img/signature.png" alt="">
@@ -109,7 +114,7 @@
         <section id="portfolio_header">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <div class="wrap">
                             <h2>BLOG</h2>
                             <h3><a href="./index.html">HOME</a>
@@ -118,7 +123,7 @@
                             </h3>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <div class="wrap">
                             <h2 class="inner-text">BLOG</h2>
 
@@ -136,24 +141,28 @@
                 <div class="row section-1">
                     <div class="col-lg-8 part-1">
                         <div class="single-item">
-                            <img class="img-fluid" src="./img/blog/blog-1.jpg" alt="">
-                            <div class="text-overlay">
-                                <h2>USA EVENT</h2>
+                            <div class="overlay">
+                                <img class="img-fluid" src="./img/blog/blog-1.jpg" alt="">
+                                <h2 class="event">USA EVENT</h2>
                             </div>
+
                             <div class="hadding-text">
-                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER TO</a>
+                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER
+                                    TO</a>
                             </div>
                             <div class="tag-point d-flex align-items-center">
                                 <img class="img-fluid" src="./img/blog/author4.png" alt="">
-                               
+
                                 <a href="#">Amit Biswas</a>
                                 <span><i class="far fa-calendar-alt"></i></span>
                                 <a class="date" href="#">28 SEPTEMBER</a>
                                 <span><i class="far fa-clock"></i></span>
-                                <a href="#"> 01 MIN READ</a>
+                                <a class="read-me" href="#"> 01 MIN READ</a>
                             </div>
                             <div class="content">
-                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising, Polling, Getting Out The Vote With Direct Contact To The Public.</p>
+                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role
+                                    Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising,
+                                    Polling, Getting Out The Vote With Direct Contact To The Public.</p>
                             </div>
                             <div class="read-more-btn d-flex align-items-center justify-content-between">
                                 <a class="btn btn-read-more" href="./single-blog.html">Read More</a>
@@ -161,24 +170,27 @@
                             </div>
                         </div>
                         <div class="single-item">
-                            <img class="img-fluid" src="./img/blog/blog-2.jpg" alt="">
-                            <div class="text-overlay">
-                                <h2>USA EVENT</h2>
+                            <div class="overlay">
+                                <img class="img-fluid" src="./img/blog/blog-1.jpg" alt="">
+                                <h2 class="event">USA EVENT</h2>
                             </div>
                             <div class="hadding-text">
-                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER TO</a>
+                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER
+                                    TO</a>
                             </div>
                             <div class="tag-point d-flex align-items-center">
                                 <img class="img-fluid" src="./img/blog/author4.png" alt="">
-                               
+
                                 <a href="#">Amit Biswas</a>
                                 <span><i class="far fa-calendar-alt"></i></span>
                                 <a class="date" href="#">28 SEPTEMBER</a>
                                 <span><i class="far fa-clock"></i></span>
-                                <a href="#"> 01 MIN READ</a>
+                                <a class="read-me" href="#"> 01 MIN READ</a>
                             </div>
                             <div class="content">
-                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising, Polling, Getting Out The Vote With Direct Contact To The Public.</p>
+                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role
+                                    Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising,
+                                    Polling, Getting Out The Vote With Direct Contact To The Public.</p>
                             </div>
                             <div class="read-more-btn d-flex align-items-center justify-content-between">
                                 <a class="btn btn-read-more" href="./single-blog.html">Read More</a>
@@ -186,24 +198,27 @@
                             </div>
                         </div>
                         <div class="single-item">
-                            <img class="img-fluid" src="./img/blog/blog-3.jpg" alt="">
-                            <div class="text-overlay">
-                                <h2>USA EVENT</h2>
+                            <div class="overlay">
+                                <img class="img-fluid" src="./img/blog/blog-1.jpg" alt="">
+                                <h2 class="event">USA EVENT</h2>
                             </div>
                             <div class="hadding-text">
-                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER TO</a>
+                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER
+                                    TO</a>
                             </div>
                             <div class="tag-point d-flex align-items-center">
                                 <img class="img-fluid" src="./img/blog/author4.png" alt="">
-                               
+
                                 <a href="#">Amit Biswas</a>
                                 <span><i class="far fa-calendar-alt"></i></span>
                                 <a class="date" href="#">28 SEPTEMBER</a>
                                 <span><i class="far fa-clock"></i></span>
-                                <a href="#"> 01 MIN READ</a>
+                                <a class="read-me" href="#"> 01 MIN READ</a>
                             </div>
                             <div class="content">
-                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising, Polling, Getting Out The Vote With Direct Contact To The Public.</p>
+                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role
+                                    Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising,
+                                    Polling, Getting Out The Vote With Direct Contact To The Public.</p>
                             </div>
                             <div class="read-more-btn d-flex align-items-center justify-content-between">
                                 <a class="btn btn-read-more" href="./single-blog.html">Read More</a>
@@ -211,41 +226,52 @@
                             </div>
                         </div>
                         <div class="single-item">
-                            <img class="img-fluid" src="./img/blog/blog-4.jpg" alt="">
-                            <div class="text-overlay">
-                                <h2>USA EVENT</h2>
+                            <div class="overlay">
+                                <img class="img-fluid" src="./img/blog/blog-1.jpg" alt="">
+                                <h2 class="event">USA EVENT</h2>
                             </div>
                             <div class="hadding-text">
-                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER TO</a>
+                                <a href="./single-blog.html">SUCCESSFUL CAMPAIGNS USUALLY REQUIRE A CAMPAIGN MANAGER
+                                    TO</a>
                             </div>
                             <div class="tag-point d-flex align-items-center">
                                 <img class="img-fluid" src="./img/blog/author4.png" alt="">
-                               
+
                                 <a href="#">Amit Biswas</a>
                                 <span><i class="far fa-calendar-alt"></i></span>
                                 <a class="date" href="#">28 SEPTEMBER</a>
                                 <span><i class="far fa-clock"></i></span>
-                                <a href="#"> 01 MIN READ</a>
+                                <a class="read-me" href="#"> 01 MIN READ</a>
                             </div>
                             <div class="content">
-                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising, Polling, Getting Out The Vote With Direct Contact To The Public.</p>
+                                <p>A Campaign Manager Or Campaign Director Is A Paid Or Volunteer Individual Whose Role
+                                    Is To Coordinate A Political Campaign's Operations Such As Fundraising, Advertising,
+                                    Polling, Getting Out The Vote With Direct Contact To The Public.</p>
                             </div>
                             <div class="read-more-btn d-flex align-items-center justify-content-between">
                                 <a class="btn btn-read-more" href="./single-blog.html">Read More</a>
                                 <a class="share" href="#"><i class="fas fa-share-alt"></i></a>
                             </div>
                         </div>
-                        <div class="pagination">
-                            <div class="wrap">
-                              <span>  <a href="#"><i class="fas fa-arrow-left"></i></a></span>
-                                <a href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                                <a href="#">4</a>
-                                <a href="#">5</a>
-                                <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                
-                            </div>
+                        <div class="pagination ">
+
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fal fa-arrow-left"></i></span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fal fa-arrow-right"></i></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                     <div class="col-lg-4 part-2">
@@ -444,8 +470,10 @@
                             <h2>Work Us</h2>
                             <hr>
                             <div class="images d-flex">
+
+                                <img class="img-fluid" src="./img/pngwing.png" alt="">
                                 <img class="img-fluid" src="./img/fiverr.png" alt="">
-                                <img class="img-fluid" src="./img/upwork.png" alt="">
+                                <img class="img-fluid" src="./img/linkedin.png" alt="">
                             </div>
                         </div>
                     </div>
